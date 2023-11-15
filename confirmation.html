@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #buttonDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      #data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      #data div {
+        background-color: #f0f0f0;
+        padding: 10px;
+        width: 200px;
+        border-radius: 8px;
+        justify-content: center;
+      }
+
+      #data span {
+        font-size: 16px;
+        width: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Página de confirmaçao</h1>
+
+    <main id="data"></main>
+    <div id="buttonDiv">
+      <button id="downloadButton">Baixar dados</button>
+    </div>
+    <script src="./scriptConfirmation.js" />
+  </body>
+</html>
